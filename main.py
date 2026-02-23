@@ -185,7 +185,7 @@ def draw():
     screen.blit("background", (0, 0))
     
     if game_state == "menu":
-        screen.draw.text("MEU JOGO", center=(400, 100), fontsize=60, color="white")
+        screen.draw.text("Jogo Plataforma, center=(400, 100), fontsize=60, color="white")
         draw_styled_button(btn_start_rect, "INICIAR")
         
         txt_som = "SOM: LIGADO" if sound_enabled else "SOM: DESLIGADO"
